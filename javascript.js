@@ -18,4 +18,4 @@ var options = {
   }
   
   Navigator.geolocation.getCurrentPosition(success, error, options);
-  
+  console.log("Hello world");
