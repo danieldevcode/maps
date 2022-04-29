@@ -17,5 +17,5 @@ var options = {
     console.warn(`ERROR(${err.code}): ${err.message}`);
   }
   
-  Navigator.geolocation.getCurrentPosition(success, error, options);
+navigator.geolocation.getCurrentPosition(success, error, options);
   console.log("Hello world");
